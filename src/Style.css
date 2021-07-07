@@ -1,0 +1,45 @@
+[class*=v-]::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.f-header {
+    min-height: 100vh;
+    background-image: url('./Starsky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+.f-contain {
+    max-width: 640px;
+}
+
+.f-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .12);
+}
+
+.f-player {
+    border-radius: 8px;
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid rgba(0, 0, 0, .12);
+}
+
+.f-footer {
+    font-size: .75rem;
+    line-height: 1.25rem;
+    opacity: 0.75;
+}
+
+/**[ 0x02: 35 38 ]**/
